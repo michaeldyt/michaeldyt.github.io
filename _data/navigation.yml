@@ -8,9 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  # TODO: Add publications later
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Publications"
+    url: /publications/
 
   # TODO: Add talks later
   # - title: "Talks"
