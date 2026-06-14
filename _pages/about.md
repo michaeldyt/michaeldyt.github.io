@@ -43,9 +43,9 @@ redirect_from:
 
 ### 2025.12-2026.5 Optimization on World Model Inference, ASC26
 
-- Accelerated inference for UnifoLM-WMA-0 and LeCun's LeWorldModel under given precision constraints.
-- Implemented low-precision quantization, network backbone full-graph compilation, dynamic pipeline simplification, multi-GPU parallelization pipeline design, communication scheme optimization, and synchronization optimization. Achieved around 8x and 100x inference speedup on two world models respectively.
-- Designed a safe and flexible orchestra agentic coding pipeline based on OpenCode and Apptainer. Achieved stable auto-optimization progress in container environments.
+- **UnifoLM-WMA-0**: Applied quantization, full-graph compilation, dynamic pipeline simplification, multi-GPU pipeline/communication design, and synchronization tuning, achieving a *8x* speedup under precision constraints.
+- **LeWM**: Reduced H2D transfers via data load balancing. Removed CPU bottlenecks with an asynchronous CPU-GPU scheduling pipeline, improving both CPU and GPU utilization. Optimized relative-position KV cache for faster LeWM inference; rewrote small-sequence Transformer hotspots in Triton and used Hipblast automatic operator epilogue fusion, achieving a *200x* speedup.
+- Built an apptainer based agent coding orchestra pipeline for stable and long-term auto-optimization in containerized environments. Improve the context management, subagent calling mechanism.
 
 ## Awards & Honors
 
