@@ -27,10 +27,10 @@
   }
 }
 
-/* Match the CV page to the homepage's 1150px / 20px scale. */
+/* Match the CV page to the homepage/reference project's 920px / 16px scale. */
 #main.cv-page {
-  max-width: 1150px;
-  font-size: 20px;
+  max-width: 920px;
+  font-size: 16px;
   line-height: 1.4;
 
   .archive {

@@ -183,6 +183,20 @@
   }
 }
 
+/* Keep the CV portrait and heading centered as one, slightly left-shifted group. */
+#main.cv-page .sidebar {
+  @include breakpoint($large) {
+    [itemscope] > .author__avatar,
+    [itemscope] > .author__content {
+      transform: translateX(-16px);
+    }
+
+    .author__avatar img {
+      max-width: 131.25px;
+    }
+  }
+}
+
 .author__name {
   margin: 0;
 
