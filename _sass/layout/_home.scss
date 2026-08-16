@@ -1,0 +1,330 @@
+/* ========================================================================== 
+   HOME — dimensions mirror reference_project/jiangranlv.github.io
+   ========================================================================== */
+
+@keyframes home-award-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 2px 6px rgba(221, 36, 118, 0.45);
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 3px 12px rgba(221, 36, 118, 0.75);
+  }
+}
+
+body {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+html:not([data-theme="dark"]) {
+  --global-text-color: #000;
+  --global-text-color-light: #000;
+  --global-masthead-link-color: #000;
+  --global-masthead-link-color-hover: #000;
+  --global-fig-caption-color: #000;
+  --global-code-text-color: #000;
+
+  body,
+  .page__footer,
+  .page__footer a {
+    color: #000;
+  }
+}
+
+.masthead__inner-wrap,
+.page__footer footer {
+  width: 100%;
+  max-width: 1150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#main.home-main {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.home-shell {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0;
+  color: var(--global-text-color);
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+
+  &,
+  * {
+    box-sizing: content-box;
+  }
+
+  a {
+    color: #1772d0;
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+  }
+
+  p {
+    margin: 1em 0;
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  h2,
+  h3 {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    letter-spacing: normal;
+  }
+}
+
+.home-reference-table {
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  table-layout: auto;
+
+  tbody,
+  tr,
+  td {
+    border: 0;
+    color: var(--global-text-color);
+    background: transparent;
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  tr:nth-child(even),
+  tr:hover {
+    background: transparent;
+  }
+}
+
+.home-hero__bio {
+  width: 68%;
+  padding: 2.5%;
+  vertical-align: middle;
+}
+
+.home-name {
+  margin: 0 0 56.25px;
+  color: var(--global-text-color);
+  font-family: serif, "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 37.5px;
+  font-weight: 400;
+  line-height: 0.5;
+  text-align: center;
+}
+
+.home-links {
+  text-align: center;
+}
+
+.home-hero__portrait {
+  width: 40%;
+  max-width: 40%;
+  padding: 2.5%;
+  vertical-align: middle;
+
+  img {
+    display: block;
+    width: 73.5%;
+    max-width: 73.5%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 7.5px;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.04);
+  }
+}
+
+.home-heading-cell {
+  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 6.25px;
+
+  h2 {
+    margin: 0;
+    color: var(--global-text-color);
+    font-size: 31.25px;
+    font-weight: 400;
+    line-height: 1;
+  }
+}
+
+.home-heading-cell--spacious {
+  padding-top: 37.5px;
+  padding-bottom: 25px;
+}
+
+.home-heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.home-copy-table td {
+  width: 100%;
+  padding: 25px;
+  vertical-align: middle;
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home-publication-note {
+  padding: 6.25px 25px 12.5px;
+  font-size: 20px;
+}
+
+.home-publication-image-cell {
+  width: 28%;
+  padding: 25px;
+  padding-bottom: 37.5px;
+  vertical-align: middle;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+  }
+
+  a:hover img,
+  a:focus img {
+    transform: scale(1.025);
+  }
+}
+
+.home-publication-copy-cell {
+  width: 72%;
+  padding: 25px;
+  padding-bottom: 37.5px;
+  vertical-align: middle;
+}
+
+.home-paper-title {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1.4;
+}
+
+.home-venue-short {
+  font-style: normal;
+}
+
+.home-publication-summary {
+  margin-top: 12.5px !important;
+  margin-bottom: 12.5px !important;
+}
+
+.home-publication-award {
+  display: inline-block;
+  padding: 3px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  box-shadow: 0 2px 6px rgba(221, 36, 118, 0.45);
+  font-size: 0.76em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+  white-space: nowrap;
+  animation: home-award-pulse 1.8s ease-in-out infinite;
+}
+
+.home-experience-mark-cell {
+  width: 25%;
+  padding: 0 68.75px;
+  vertical-align: middle;
+}
+
+.home-experience-copy-cell {
+  width: 75%;
+  padding: 18.75px 25px;
+  vertical-align: middle;
+
+  p {
+    margin-top: 7.5px;
+    margin-bottom: 0;
+  }
+}
+
+.home-experience-logo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 11.25px;
+}
+
+.home-awards-table ul,
+.home-miscellaneous-table ul,
+.home-news {
+  margin: 1em 0;
+  padding-left: 50px;
+  list-style: disc;
+
+  li {
+    display: list-item;
+  }
+}
+
+html[data-theme="dark"] .home-shell a {
+  color: #77bfff;
+
+  &:focus,
+  &:hover {
+    color: #ffb568;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-shell *,
+  .home-shell *::before,
+  .home-shell *::after {
+    transition: none !important;
+  }
+
+  .home-publication-award {
+    animation: none !important;
+  }
+}

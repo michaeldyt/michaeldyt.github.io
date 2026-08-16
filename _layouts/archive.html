@@ -12,7 +12,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main"{% if page.cv_scaled %} class="cv-page"{% endif %} role="main">
   {% include sidebar.html %}
 
   <div class="archive">

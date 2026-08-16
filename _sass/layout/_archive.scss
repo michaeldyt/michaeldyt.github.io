@@ -27,6 +27,25 @@
   }
 }
 
+/* Match the CV page to the homepage's 1150px / 20px scale. */
+#main.cv-page {
+  max-width: 1150px;
+  font-size: 20px;
+  line-height: 1.4;
+
+  .archive {
+    font-size: inherit;
+    line-height: inherit;
+
+    p,
+    li,
+    dl {
+      font-size: 1em;
+      line-height: 1.4;
+    }
+  }
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
