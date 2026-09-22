@@ -64,12 +64,37 @@ redirect_from:
 
 <table class="home-reference-table home-heading-table" aria-labelledby="publications-heading">
   <tbody>
-    <tr><td class="home-heading-cell"><h2 id="publications-heading">Publication</h2></td></tr>
+    <tr><td class="home-heading-cell"><h2 id="publications-heading">Publications</h2></td></tr>
     <tr><td class="home-publication-note">*: joint first author; &dagger;: project lead; &#9993;: corresponding author(s)</td></tr>
   </tbody>
 </table>
 <table class="home-reference-table home-publications-table">
   <tbody>
+    <tr>
+      <td class="home-publication-image-cell">
+        <a href="https://steveouo.github.io/DualWAM-Web/" aria-label="Open the DualWAM project page">
+          <img src="{{ '/images/dualwam.png' | relative_url }}" alt="DualWAM global planning and local refinement architecture with real-robot evaluation results" loading="lazy">
+        </a>
+      </td>
+      <td class="home-publication-copy-cell">
+        <h3 class="home-paper-title">DualWAM: Dual-System World Action Models for Asynchronous Global Planning and Local Refinement</h3>
+        <a href="https://steveouo.github.io/">Yixin Zheng</a><sup>*</sup>,
+        <a href="https://jiangranlv.github.io/">Jiangran Lyu</a><sup>*</sup>,
+        <strong>Yuntian Deng</strong><sup>*</sup>,
+        <a>Kai Liu</a>,
+        <a>Yizhou Zhou</a>,
+        <a href="https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm">Yizhou Wang</a>,
+        <a>Xiaoguang Zhao</a>,
+        <a href="https://hughw19.github.io/">He Wang</a><sup>&#9993;</sup>,
+        <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a><sup>&#9993;</sup>
+        <br>
+        <em>Submitted to <strong class="home-venue-short">ICLR 2027</strong></em>
+        <br>
+        <a href="https://arxiv.org/abs/2609.24868">arXiv</a> /
+        <a href="https://steveouo.github.io/DualWAM-Web/">project page</a>
+        <p class="home-publication-summary">An asynchronous dual-system world action model that combines global planning with wrist-guided local refinement, improving zero-shot manipulation success by 4.5 percentage points with a 16.6× critical-path speedup.</p>
+      </td>
+    </tr>
     <tr>
       <td class="home-publication-image-cell">
         <a href="https://pku-epic.github.io/DAPL/" aria-label="Open the DAPL project page">
