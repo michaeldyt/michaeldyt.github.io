@@ -169,10 +169,12 @@ redirect_from:
       <td class="home-heading-cell home-heading-cell--spacious">
         <h2 id="awards-heading">Awards</h2>
         <ul>
-          <li>2026 First Prize &amp; Best Presentation Prize, ASC Student Supercomputing Challenge</li>
-          <li>2025 World Champion Player, ASC Student Supercomputing Challenge</li>
-          <li>2025 National Scholarship &amp; John Wu &amp; Jane Sun Excellence Scholarship</li>
-          <li>2023 National First Prize, 37th China Adolescence Science &amp; Innovation Contest</li>
+          <li>First Prize, ASC Student Supercomputing Challenge (2026)</li>
+          <li>Best Presentation Prize, ASC Student Supercomputing Challenge (2026)</li>
+          <li>World Champion Player, ASC Student Supercomputing Challenge (2025)</li>
+          <li>National Scholarship (2025)</li>
+          <li>John Wu &amp; Jane Sun Excellence Scholarship (top 1%), SJTU (2025)</li>
+          <li>National First Prize, 37th China Adolescents Science and Technology Innovation Contest (2023)</li>
         </ul>
       </td>
     </tr>
