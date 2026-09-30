@@ -171,8 +171,8 @@ redirect_from:
         <ul>
           <li>First Prize, ASC Student Supercomputing Challenge (2026)</li>
           <li>Best Presentation Prize, ASC Student Supercomputing Challenge (2026)</li>
-          <li>World Champion Player, ASC Student Supercomputing Challenge (2025)</li>
-          <li>National Scholarship (2025)</li>
+          <li>World Champion Player 🏆, ASC Student Supercomputing Challenge (2025)</li>
+          <li>National Scholarship (2025,2026)</li>
           <li>John Wu &amp; Jane Sun Excellence Scholarship (top 1%), SJTU (2025)</li>
           <li>National First Prize, 37th China Adolescents Science and Technology Innovation Contest (2023)</li>
         </ul>
