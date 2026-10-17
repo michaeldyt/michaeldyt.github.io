@@ -28,7 +28,7 @@ redirect_from:
 - Optimize large-scale open-source software by reconstructing operators and tuning multithreaded scheduling.
 - Organized the first internal high-performance computing competition, “Hello HPC,” at SJTU, reaching nearly 1,000 participants.
 - Contribute to and maintain the open-source [HPC Start Guide](https://xflops.sjtu.edu.cn/hpc-start-guide/).
-- Independently deployed the DeepSeek-R1-671B model on the SJTU TPU cluster.
+- Independently deployed the DeepSeek-R1-671B model on the SJTU NPU cluster.
 
 ### 2024.09–2025.04 · Embodied AI Algorithm Research, Project Participant
 
