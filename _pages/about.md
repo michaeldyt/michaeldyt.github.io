@@ -147,7 +147,7 @@ redirect_from:
       <td class="home-experience-copy-cell">
         <h3 class="home-paper-title">SJTU Supercomputer Team Xflops</h3>
         Core Member · 2024.10–Present
-        <p>Compete in ASC and SCC International Supercomputer Contest. Optimize large-scale software through operator reconstruction, profiling, and multi-thread scheduling. Maintain the team’s open-source <a href="https://xflops.sjtu.edu.cn/hpc-start-guide/">HPC Start Guide</a>. Independently deployed DeepSeek-R1-671B on the SJTU "Zhiyuan-1" TPU Cluster.</p>
+        <p>Compete in ASC and SCC International Supercomputer Contest. Optimize large-scale software through operator reconstruction, profiling, and multi-thread scheduling. Maintain the team’s open-source <a href="https://xflops.sjtu.edu.cn/hpc-start-guide/">HPC Start Guide</a>. Independently deployed DeepSeek-R1-671B on the SJTU "Zhiyuan-1" NPU Cluster.</p>
       </td>
     </tr>
     <tr>
